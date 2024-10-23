@@ -1,5 +1,10 @@
 import { PostList } from "../components/PostList";
 
 export default async function Home() {
-  return <PostList />;
+  return (
+    <>
+     <h2>This is sams changes</h2>
+     <PostList />
+     </>
+  )
 }
